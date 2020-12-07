@@ -10,7 +10,7 @@ var totalLength = function(beginWord, endWord, wordList){
         return 0;
     }
     var findNextWord = function(queue, word){
-        //for each position
+        //for each word position
         for(var j=0; j<word.length ; j++){
             var a = 'a'.charCodeAt(0);
             var leftPosition = word.subsrting(0,j);
