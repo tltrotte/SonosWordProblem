@@ -1,0 +1,21 @@
+Test Case Scenario: Program should not accept same words
+Pre-Requisites- download Repo, open terminal to navigate Program folder, npm install and jest(to run test)
+Test Priority: High
+Number of Steps: 6
+
+
+Steps:
+1. Open Program folder and Navigate to Test folder
+2. Open "index.test.js"
+3. Find text  "test('should return false for exact match of words', () => {
+    expect(totalLength('strong', 'strong')).toBe(false);
+  });" and input The same word in both Word1 and Word2 of totalLength(). Save document
+4. Go to terminal and type "jest" to run test
+5. You should see Passing test for updating to same word.
+6. Change back to original method.
+
+
+Expected Output: Pass Unit Test
+Actual Output: Pass Unit Test
+
+Test Results: Pass

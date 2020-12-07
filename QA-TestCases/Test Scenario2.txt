@@ -1,0 +1,21 @@
+Test Case Scenario: Program Only Allows One Letter to be changed:
+Pre-Requisites- download Repo, open terminal to navigate Program folder, npm install and jest(to run test)
+Test Priority: High
+Number of Steps: 6
+
+
+Steps:
+1. Open Program folder and Navigate to Test folder
+2. Open "index.test.js"
+3. Find text  "test('should return false for more than one letter transformation', () => {
+    expect(totalLength('strong', 'stross')).toBe(false);
+  });" and input more than one letter change in word 2 inside of totalLenght('word1','word2'). Save document
+4. Go to terminal and type "jest" to run test
+5. You should see Failure more than one letter changing.
+6. Change back to original method and save. 
+
+
+Expected Output: Failed Unit Test
+Actual Output: Failed Unit Test
+
+Test Results: Pass
