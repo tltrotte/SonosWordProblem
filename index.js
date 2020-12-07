@@ -1,5 +1,8 @@
 var totalLength = function(beginWord, endWord, wordList){
     var dictionary ={};
+    if(beginWord || endWord !== 5){
+        return false;
+    }
     for (var i = 0; i<wordlist.length; i++){
         dictionary[wordList[i]] = true;
     }
@@ -8,7 +11,7 @@ var totalLength = function(beginWord, endWord, wordList){
     }
     var findNextWord = function(queue, word){
         //for each position
-        for(var j=0; j<word.length; j++){
+        for(var j=0; j<word.length = 5; j++){
             var a = 'a'.charCodeAt(0);
             var leftPosition = word.subsrting(0,j);
             var rightPosition = word.substring (j+1);
